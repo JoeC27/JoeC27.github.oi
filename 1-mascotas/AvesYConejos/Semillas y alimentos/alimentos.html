@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"  href="../../../estilos/estilos.css">
+    <link href="../../../fontawesome-free-7.1.0-web/css/all.css" rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Alimentos</title>
+    <meta name="description" content="Esta pagina web se trata de medicina veterinaria y productos relacionados">
+    <meta name="keywords" content="alimentos, perros, gatos, esterilización, cirugias, cuchas, colchonetas, baño, peluqueria, medicina, veterinaria">
+</head>
+<body>
+<!--Navegador-arriba-->
+<nav class="navbar" id="superior">
+    <div class="container justify-content-center">
+        <div class="row">
+            <div class="col-12">
+                 <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                 </form>
+            </div>
+        </div>
+        </div>
+        <ul class="nav justify-content-end m-2">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mi Cuenta<i class='bxr  bx-user m-1'  ></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Navegador-abajo-->
+<nav class="navbar navbar-expand-lg " id="menu">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../../../index.html"><img src="../../../img/logo-vete/logo-biger.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mascotas
+            </a>
+             <ul class="dropdown-menu">
+                <li><a class="dropdown-item d-none d-md-block d-lg-block" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Perros</a></li>
+                <li><a class="dropdown-item  d-sm-none" href="#" data-bs-toggle="offcanvas"  data-bs-target="#staticBackdrop" aria-controls="offcanvas">Perros</a></li>
+                <li><a class="dropdown-item  d-none d-md-block d-lg-block" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-cat" aria-controls="offcanvas">Gatos</a></li>
+                <li><a class="dropdown-item d-sm-none" href="#" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop-cat" aria-controls="offcanvas">Gatos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item d-none d-md-block d-lg-block" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-pez" aria-controls="offcanvas" >Peces</a></li>
+                <li><a class="dropdown-item d-sm-none" href="#" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop-pez" aria-controls="offcanvas" >Peces</a></li>
+                <li><a class="dropdown-item  d-none d-md-block d-lg-block" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-otro" aria-controls="offcanvas">Otros</a></li>
+                <li><a class="dropdown-item d-sm-none" href="#" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop-otro" aria-controls="offcanvas">Otros</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="../../../historia.html">¿Quienes Somos?</a>
+            </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ofertas
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../../4-ofertas/alimentos.html">Alimentos</a></li>
+                <li><a class="dropdown-item" href="../../../4-ofertas/liquidacion.html">Liquidaciòn</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../../../4-ofertas/promos.html">Promo del mes</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+           <a class="nav-link d-none d-md-block d-lg-block" aria-disabled="true" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-plaga" aria-controls="offcanvas">Plagas</a>
+             <a class="nav-link d-sm-none" aria-disabled="true" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop-plaga" aria-controls="offcanvas">Plagas</a>
+            </li>
+             <li class="nav-item">
+            <a class="nav-link " aria-disabled="true" href="../../../blog.html">Blog</a>
+            </li>
+             <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pileta
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../../2-pileta/cloros/cloros.html">Cloro</a></li>
+                <li><a class="dropdown-item" href="../../../2-pileta/liquidos/liquidos.html">Liquidos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../../../2-pileta/accesorios/accesorios.html">Accesorios</a></li>
+            </ul>
+            </li>
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contacto<i class='bxr  bx-phone-book  m-1'  ></i> 
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tel:+542994611986"><i class='bxr  bx-phone-ring'  ></i> Llamar</a></li>
+                <li><a class="dropdown-item" href="#"><i class='bxr  bx-envelope'  ></i> Email</a></li>
+                <li><a class="dropdown-item" href="https://www.google.com/maps/place/Veterinaria+Johnston/@-37.8802784,-67.7978519,17z/data=!3m1!4b1!4m6!3m5!1s0x960aca466e2aca45:0x9b55d026b27e1bb8!8m2!3d-37.8802827!4d-67.795277!16s%2Fg%2F11j00rmc0p?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class='bxr  bx-location'  ></i> Ubicaciòn</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="dropdown-item"><b>Horarios</b><i class='bxr  bx-clock-2'  ></i></li>
+                <li class="dropdown-item">9hs a 12:30hs</li>
+                <li class="dropdown-item">17:30hs a 21hs</li>
+                <li class="dropdown-item"><b>Sabados</b><i class='bxr  bx-clock-2'  ></i></li>
+                <li class="dropdown-item">9hs a 13hs</li>
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class='bxr  bx-cart mt-1'  ></i>2 </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"  data-bs-toggle="offcanvas" data-bs-target="#offcanvas-notificaciones" aria-controls="offcanvasRight"><i class='bxr  bx-bell mt-1'  ></i>1 </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<!--SubMenus desplegables-->
+<!--Menu perro-->
+<div class="offcanvas offcanvas-top d-none d-md-block d-lg-block" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col items">
+            <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/alimentos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/secos.html"><li class="list-group-item mt-1">Secos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/humedos.html"><li class="list-group-item mt-1">Humedos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/medicados.html"><li class="list-group-item mt-1">Medicados</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/snacks.html"><li class="list-group-item mt-1">Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/estetica-higiene.html"><b class="offcanvas-title" id="offcanvasLabel">Estetica Higiene</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/panios.html"><li class="list-group-item mt-1">Paños</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cepillos.html "><li class="list-group-item mt-1">Cepillos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/shampoo.html"><li class="list-group-item mt-1">Shampoo</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/enjuague-bucal.html"><li class="list-group-item mt-1">Enjuague Bucal</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cortaunias.html"><li class="list-group-item mt-1">Cortauñas</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/juguetes.html"><li class="list-group-item mt-1 ">Juguetes</li></a> 
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/transportadora.html"><li class="list-group-item mt-1 ">Transportadoras</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/camas.html"><li class="list-group-item mt-1">Camas y moises</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/comederos.html"><li class="list-group-item mt-1">Comederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/collares.html"><li class="list-group-item mt-1">Collares</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/"><li class="list-group-item mt-1">Correas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/cuchas.html"><li class="list-group-item mt-1">Cuchas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/ropa.html"><li class="list-group-item mt-1">Ropa</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+              <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/snack.html"><b class="offcanvas-title" id="offcanvasLabel">Snacks</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/huesos.html"><li class="list-group-item mt-1 ">Huesos y cueros</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bocaditos.html"><li class="list-group-item mt-1">Bocaditos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bolsas-snacks.html"><li class="list-group-item mt-1">Bolsitas de Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items"> 
+              <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/salud.html"><b class="offcanvas-title" id="offcanvasLabel">Salud</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/antiparasitarios.html"><li class="list-group-item mt-1 ">Antiparasitarios</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/pulguicidas.html"><li class="list-group-item mt-1">Pulguicidas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/medicamentos.html"><li class="list-group-item mt-1">Medicamentos</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="col-1">
+        <img src="../../../img/servicios/peluqueria-1.jpg" class="folleto_off">
+    </div>
+  </div>
+</div>
+<!--Menu gato-->
+<div class="offcanvas offcanvas-top d-none d-md-block d-lg-block" tabindex="-1" id="offcanvas-cat" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col items">
+            <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/alimentos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/secos.html"><li class="list-group-item mt-1">Secos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/humedos.html"><li class="list-group-item mt-1">Humedos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/medicados.html"><li class="list-group-item mt-1">Medicados</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/snacks.html"><li class="list-group-item mt-1">Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/estetica-higiene.html"><b class="offcanvas-title" id="offcanvasLabel">Estetica Higiene</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/panios.html"><li class="list-group-item mt-1">Paños</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cepillos.html"><li class="list-group-item mt-1">Cepillos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/shampoo.html"><li class="list-group-item mt-1">Shampoo</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/enjuague-bucal.html"><li class="list-group-item mt-1">Enjuague Bucal</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cortaunias.html"><li class="list-group-item mt-1">Cortauñas</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/juguetes.html"><li class="list-group-item mt-1 ">Juguetes</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/transportadora.html"><li class="list-group-item mt-1 ">Transportadoras</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/camas.html"><li class="list-group-item mt-1">Camas y moises</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/comederos.html"><li class="list-group-item mt-1">Comederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/collares.html"><li class="list-group-item mt-1">Collares</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/"><li class="list-group-item mt-1">Pretales</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/"><li class="list-group-item mt-1">Correas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/cuchas.html"><li class="list-group-item mt-1">Cuchas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/ropa.html"><li class="list-group-item mt-1">Ropa</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+              <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/snack.html"><b class="offcanvas-title" id="offcanvasLabel">Snacks</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/huesos.html"><li class="list-group-item mt-1 ">Huesos y cueros</li></a>
+                <a class="btn-subIndex" href="../../1-mascotas/perros y gatos/Snack/bocaditos.html"><li class="list-group-item mt-1">Palitos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bocaditos.html"><li class="list-group-item mt-1">Bocaditos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bolsas-snacks.html"><li class="list-group-item mt-1">Bolsitas de Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items"> 
+              <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/salud.html"><b class="offcanvas-title" id="offcanvasLabel">Salud</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/antiparasitarios.html"><li class="list-group-item mt-1 ">Antiparasitarios</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/pulguicidas.html"><li class="list-group-item mt-1">Pulguicidas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/medicamentos.html"><li class="list-group-item mt-1">Medicamentos</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="col-1">
+        <img src="../../../img/servicios/peluqueria-1.jpg" class="folleto_off">
+    </div>
+  </div>
+</div>
+<!--Menu peces-->
+<div class="offcanvas offcanvas-top d-none d-md-block d-lg-block" tabindex="-1" id="offcanvas-pez" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col item2">
+            <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/alimetnos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/aguaFria.html"><li class="list-group-item mt-1">Agua Fria</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/tropicales.html"><li class="list-group-item mt-1">Tropicales</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/tortugas.html"><li class="list-group-item mt-1">Tortugas</li></a>
+            </ul>
+        </div>
+        <div class="col item2">
+             <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/peceras.html"><li class="list-group-item mt-1">Peceras</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/aireadores.html"><li class="list-group-item mt-1">Aireadores</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/filtros.html"><li class="list-group-item mt-1">Filtros</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/bombas-de-agua.html"><li class="list-group-item mt-1">Air Bomb</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/calentadores.html"><li class="list-group-item mt-1">Calenradores</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/iluminacion.html"><li class="list-group-item mt-1">Iluminación</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/adornos.html"><li class="list-group-item mt-1">Adornos</li></a>
+            </ul>
+        </div>
+        <div class="col item2">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Peces/peces.html"><b class="offcanvas-title" id="offcanvasLabel">Peces</b></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Peces/tropicales/"><li class="list-group-item mt-1 ">Topicales</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Peces/AguaFria/"><li class="list-group-item mt-1 ">Agua fria</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu otros-->
+<div class="offcanvas offcanvas-top d-none d-md-block d-lg-block" tabindex="-1" id="offcanvas-otro" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col item2">
+            <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/comederos.html"><li class="list-group-item mt-1">Comederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/bebederos.html"><li class="list-group-item mt-1">Bebederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/jaulas.html"><li class="list-group-item mt-1">Jaulas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/nidos.html"><li class="list-group-item mt-1">Nidos</li></a>
+            </ul>
+        </div>
+        <div class="col item2">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/alimentos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/semillas.html"><li class="list-group-item mt-1">Mijo</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu plagas-->
+<div class="offcanvas offcanvas-top d-none d-md-block d-lg-block" tabindex="-1" id="offcanvas-plaga" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col item3">
+            <ul>
+                 <a class="btn-subIndex" href="../../../3-Plantas-plagas/herbicidas.html"><b class="offcanvas-title" id="offcanvasLabel">Herbicida y veneno</b></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/herbicidas/glacoxan.html"><li class="list-group-item mt-1">Glacoxan</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/herbicidas/enraizante.html"><li class="list-group-item mt-1">Enraizante</li></a>
+            </ul>
+        </div>
+        <div class="col item3">
+             <ul>
+                 <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios/pulverizadores.html"><li class="list-group-item mt-1">Pulverizadores</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios/fumigadoras.html"><li class="list-group-item mt-1">Fumigadora</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios/boyero.html"><li class="list-group-item mt-1">Boyero Elèctrico</li></a>
+            </ul>
+        </div>
+        <div class="col item3">
+             <ul>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos.html"><b class="offcanvas-title" id="offcanvasLabel">Venenos</b></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos/insecticidas.html"><li class="list-group-item mt-1 ">Isecticidas</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos/veneno-ratas.html"><li class="list-group-item mt-1">venenos para ratas</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos/veneno-cucarachas.html"><li class="list-group-item mt-1">Veneno para cucarachas</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu Carrito-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="../../../img/productos/alguicida.png" class="img-fluid rounded-start" alt="alguicida">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-text">Alguicida Mantenimiento x 1L.</p>
+                    <div class="col-6">
+                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="3">5</option>
+                        </select>
+                    </div>
+                    <h6 class="mt-2">$7500</h6>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="../../../img/productos/alguicida.png" class="img-fluid rounded-start" alt="alguicida">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-text">Alguicida Mantenimiento x 1L.</p>
+                    <div class="col-6">
+                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="3">5</option>
+                        </select>
+                    </div>
+                    <h6 class="mt-2">$7500</h6>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row finalizar-compra">
+                <div class="card-12 ">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-9">
+                                <p class="card-text">Subtotal</p>
+                            </div>
+                            <div class="col-3">
+                                <p class="card-text">$7.500</p>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-9">
+                                <h5 class="card-title">Total</h5>
+                            </div>
+                            <div class="col-3">
+                                <p class="card-text">$7.500</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-dark col-12 mt-3">Finalizar Compra</a>
+                   </div>
+             </div>
+        </div>
+  </div>
+</div>
+<!--Menu Notificaciones-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-notificaciones" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Notificaciones</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="../../../img/productos/alguicida.png" class="img-fluid rounded-start" alt="alguicida">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h6 class="mt-2">¡OFERTA!</h6>
+                    <p class="card-text">Aprovecha nuestras ofertas en Productos para Pileta.!!</p>
+                    <a href="#" class="btn btn-dark col-12 mt-3">Ver</a>
+                </div>
+                </div>
+            </div>
+        </div>
+  </div>
+</div>
+<!--SubMenu desplegable Responsive-->
+<!--Menu perro-responsive-->
+<div class="offcanvas offcanvas-start  d-sm-none" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+   <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col items">
+            <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/alimentos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/secos.html"><li class="list-group-item mt-1">Secos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/humedos.html"><li class="list-group-item mt-1">Humedos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/medicados.html"><li class="list-group-item mt-1">Medicados</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-perro/snacks.html"><li class="list-group-item mt-1">Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/estetica-higiene.html"><b class="offcanvas-title" id="offcanvasLabel">Estetica Higiene</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/panios.html"><li class="list-group-item mt-1">Paños</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cepillos.html "><li class="list-group-item mt-1">Cepillos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/shampoo.html"><li class="list-group-item mt-1">Shampoo</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/enjuague-bucal.html"><li class="list-group-item mt-1">Enjuague Bucal</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cortaunias.html"><li class="list-group-item mt-1">Cortauñas</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/juguetes.html"><li class="list-group-item mt-1 ">Juguetes</li></a> 
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/transportadora.html"><li class="list-group-item mt-1 ">Transportadoras</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/camas.html"><li class="list-group-item mt-1">Camas y moises</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/comederos.html"><li class="list-group-item mt-1">Comederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/collares.html"><li class="list-group-item mt-1">Collares</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/"><li class="list-group-item mt-1">Correas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/cuchas.html"><li class="list-group-item mt-1">Cuchas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/ropa.html"><li class="list-group-item mt-1">Ropa</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+              <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/snack.html"><b class="offcanvas-title" id="offcanvasLabel">Snacks</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/huesos.html"><li class="list-group-item mt-1 ">Huesos y cueros</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bocaditos.html"><li class="list-group-item mt-1">Bocaditos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bolsas-snacks.html"><li class="list-group-item mt-1">Bolsitas de Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items"> 
+              <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/salud.html"><b class="offcanvas-title" id="offcanvasLabel">Salud</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/antiparasitarios.html"><li class="list-group-item mt-1 ">Antiparasitarios</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/pulguicidas.html"><li class="list-group-item mt-1">Pulguicidas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/medicamentos.html"><li class="list-group-item mt-1">Medicamentos</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu Gato-responsive-->
+<div class="offcanvas offcanvas-start  d-sm-none" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop-cat" aria-labelledby="staticBackdropLabel">
+   <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col items">
+            <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/alimentos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/secos.html"><li class="list-group-item mt-1">Secos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/humedos.html"><li class="list-group-item mt-1">Humedos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/medicados.html"><li class="list-group-item mt-1">Medicados</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/alimentos-gato/snacks.html"><li class="list-group-item mt-1">Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/estetica-higiene.html"><b class="offcanvas-title" id="offcanvasLabel">Estetica Higiene</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/panios.html"><li class="list-group-item mt-1">Paños</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cepillos.html"><li class="list-group-item mt-1">Cepillos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/shampoo.html"><li class="list-group-item mt-1">Shampoo</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/enjuague-bucal.html"><li class="list-group-item mt-1">Enjuague Bucal</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Estetica/cortaunias.html"><li class="list-group-item mt-1">Cortauñas</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+             <ul>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/juguetes.html"><li class="list-group-item mt-1 ">Juguetes</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/transportadora.html"><li class="list-group-item mt-1 ">Transportadoras</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/camas.html"><li class="list-group-item mt-1">Camas y moises</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/comederos.html"><li class="list-group-item mt-1">Comederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/collares.html"><li class="list-group-item mt-1">Collares</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/"><li class="list-group-item mt-1">Pretales</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/"><li class="list-group-item mt-1">Correas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/cuchas.html"><li class="list-group-item mt-1">Cuchas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Accesorios/ropa.html"><li class="list-group-item mt-1">Ropa</li></a>
+            </ul>
+        </div>
+        <div class="col items">
+              <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/snack.html"><b class="offcanvas-title" id="offcanvasLabel">Snacks</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/huesos.html"><li class="list-group-item mt-1 ">Huesos y cueros</li></a>
+                <a class="btn-subIndex" href="../../1-mascotas/perros y gatos/Snack/bocaditos.html"><li class="list-group-item mt-1">Palitos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bocaditos.html"><li class="list-group-item mt-1">Bocaditos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Snack/bolsas-snacks.html"><li class="list-group-item mt-1">Bolsitas de Snacks</li></a>
+            </ul>
+        </div>
+        <div class="col items"> 
+              <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/salud.html"><b class="offcanvas-title" id="offcanvasLabel">Salud</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/antiparasitarios.html"><li class="list-group-item mt-1 ">Antiparasitarios</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/pulguicidas.html"><li class="list-group-item mt-1">Pulguicidas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/perros y gatos/Salud/medicamentos.html"><li class="list-group-item mt-1">Medicamentos</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu peces-responsive-->
+<div class="offcanvas offcanvas-start  d-sm-none" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop-pez" aria-labelledby="staticBackdropLabel">
+   <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col item2">
+            <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/alimetnos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/aguaFria.html"><li class="list-group-item mt-1">Agua Fria</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/tropicales.html"><li class="list-group-item mt-1">Tropicales</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/alimentos/tortugas.html"><li class="list-group-item mt-1">Tortugas</li></a>
+            </ul>
+        </div>
+        <div class="col item2">
+             <ul>
+                  <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/peceras.html"><li class="list-group-item mt-1">Peceras</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/aireadores.html"><li class="list-group-item mt-1">Aireadores</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/filtros.html"><li class="list-group-item mt-1">Filtros</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/bombas-de-agua.html"><li class="list-group-item mt-1">Air Bomb</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/calentadores.html"><li class="list-group-item mt-1">Calenradores</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/iluminacion.html"><li class="list-group-item mt-1">Iluminación</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Accesorios/adornos.html"><li class="list-group-item mt-1">Adornos</li></a>
+            </ul>
+        </div>
+        <div class="col item2">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Peces/peces.html"><b class="offcanvas-title" id="offcanvasLabel">Peces</b></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Peces/tropicales/"><li class="list-group-item mt-1 ">Topicales</li></a>
+                 <a class="btn-subIndex" href="../../../1-mascotas/peces/Peces/AguaFria/"><li class="list-group-item mt-1 ">Agua fria</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu otros-responsive-->
+<div class="offcanvas offcanvas-start  d-sm-none" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop-otro" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col item2">
+            <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/comederos.html"><li class="list-group-item mt-1">Comederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/bebederos.html"><li class="list-group-item mt-1">Bebederos</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/jaulas.html"><li class="list-group-item mt-1">Jaulas</li></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Accesorios/nidos.html"><li class="list-group-item mt-1">Nidos</li></a>
+            </ul>
+        </div>
+        <div class="col item2">
+             <ul>
+                 <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/alimentos.html"><b class="offcanvas-title" id="offcanvasLabel">Alimentos</b></a>
+                <a class="btn-subIndex" href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/semillas.html"><li class="list-group-item mt-1">Mijo</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!--Menu Plagas-responsive-->
+<div class="offcanvas offcanvas-start  d-sm-none" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop-plaga" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header">
+    <div class="row ">
+        <div class="col item3">
+            <ul>
+                 <a class="btn-subIndex" href="../../../3-Plantas-plagas/herbicidas.html"><b class="offcanvas-title" id="offcanvasLabel">Herbicida y veneno</b></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/herbicidas/glacoxan.html"><li class="list-group-item mt-1">Glacoxan</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/herbicidas/enraizante.html"><li class="list-group-item mt-1">Enraizante</li></a>
+            </ul>
+        </div>
+        <div class="col item3">
+             <ul>
+                 <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios.html"><b class="offcanvas-title" id="offcanvasLabel">Accesorios</b></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios/pulverizadores.html"><li class="list-group-item mt-1">Pulverizadores</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios/fumigadoras.html"><li class="list-group-item mt-1">Fumigadora</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/accesorios/boyero.html"><li class="list-group-item mt-1">Boyero Elèctrico</li></a>
+            </ul>
+        </div>
+        <div class="col item3">
+             <ul>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos.html"><b class="offcanvas-title" id="offcanvasLabel">Venenos</b></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos/insecticidas.html"><li class="list-group-item mt-1 ">Isecticidas</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos/veneno-ratas.html"><li class="list-group-item mt-1">venenos para ratas</li></a>
+                <a class="btn-subIndex" href="../../../3-Plantas-plagas/venenos/veneno-cucarachas.html"><li class="list-group-item mt-1">Veneno para cucarachas</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="col ml-5">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+<!-- seccion productos -->
+<section class="seccion-alimentos py-5">
+     <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-4 justify-content-end">
+             <div class="col justify-content-start">
+            <!--Filtro-->
+            <h3>Filtro</h3>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Alimento
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Conejo</li>
+                            <li>Mescla para canarios</li>
+                            <li>Mesclara para coballos</li>
+                            <li>Mijo</li>
+                            <li>Alpiste</li>
+                            <li>Girazol</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Kilos
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>3kg</li>
+                            <li>5kg</li>
+                            <li>10kg</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--fin del filtro-->
+            </div>
+            <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+           <div class=" mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+           <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+           <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+           <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+           <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+          <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+          <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-3">
+                <div class="card">
+                    <!--Img Card--> 
+                    <img class="card-img-top-fluid" 
+                    src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" 
+                    alt="..." 
+                    />
+                    <!--titulo card--> 
+                    <div class="card-body p-4">
+                        <div class="text-center">   
+                            <h5 class="fw-bolder">Fancy Product</h5>
+                            $40.00 - $80.00
+                        </div>
+                    </div>
+                    <!--Boton Card-->      
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                            Ver Producto
+                    </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Pie de pagina-->
+<footer class="footer">
+    <!--Boton whatsapp fijo-->
+     <a href="https://api.whatsapp.com/send?phone=2994611986" 
+        class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!--Boton Anclas-->
+    <div class="container ">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="titulo ancla"><i class='bxr  bx-arrow-out-up-square-half'></i><br/></a>
+             </div>
+        </div>
+    </div>
+    <h4 class="titulo"><i class='bxr  bx-paw-print m-2'  ></i>Veterinaria Johnston<i class='bxr  bx-paw-print m-2'  ></i></h4>
+    <!--Enlaces del footer-->
+    <div class="container nav-footer">
+    <ul class="row nav">
+        <div class="col-sm-3 col-md-4 col-lg-3">
+        <li class="nav-item">
+            <a class="titulo-footer active" aria-current="page" href="#">¿Quienes Somos?</a>
+            <ul class="menu-footer">
+                <li class="nav footer-item"><a href="../../../historia.html" class="footer-item">Historia</a></li>
+                <li class="nav footer-item"><a href="../../../blog.html" class="footer-item">Blog</a></li>
+            </ul>
+        </li>
+        </div>
+        <div class="col-sm-3 col-md-4 col-lg-3">
+        <li class="nav-item">
+            <a class="titulo-footer" href="#">Mascotas</a>
+            <ul class="menu-footer">
+                <li class="nav footer-item"><a href="../../../1-mascotas/perros y gatos/alimentos-gato/alimentos.html" class="footer-item">Gatos</a></li>
+                <li class="nav footer-item"><a href="../../../1-mascotas/perros y gatos/alimentos-perro/alimentos.html" class="footer-item">Perros</a></li>
+                <li class="nav footer-item"><a href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/alimentos.html" class="footer-item">Conejos</a></a></li>
+                <li class="nav footer-item"><a href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/alimentos.html" class="footer-item">Cobayos</a></li>
+                <li class="nav footer-item"><a href="../../../1-mascotas/AvesYConejos/Semillas y alimentos/alimentos.html" class="footer-item">Pajaros</a></li>
+                <li class="nav footer-item"><a href="../../../1-mascotas/peces/alimentos/tortugas.html" class="footer-item">Tortugas</a></li>
+                <li class="nav footer-item"><a href="../../../1-mascotas/peces/alimentos/aguaFria.html" class="footer-item">Peces</a></li>
+            </ul>
+        </li>
+        </div>
+        <div class="col-sm-3 col-md-4 col-lg-3">
+        <li class="nav-item">
+            <a class="titulo-footer" href="#">Servicios</a>
+            <ul class="menu-footer">
+                <li class="nav footer-item"><a href="../../../blog.html" class="footer-item">Veterinaria</a></li>
+                <li class="nav footer-item"><a href="https://api.whatsapp.com/send?phone=2994611986" target="_blank" class="footer-item">Atencion al Cliente</a></li>
+                <li class="nav footer-item"><a href="../../../index.html" class="footer-item">Peluqueria Canina</a></li>
+                <li class="nav footer-item"><h6 class="footer-item">Envios</h6></li>
+            </ul>
+        </li>
+        </div>
+        <div class="col-sm-3 col-md-4 col-lg-3">
+        <li class="nav-item">
+            <a class="titulo-footer " aria-disabled="true">Medios de pago</a>
+            <ul class="menu-footer">
+                <li class="nav footer-item"><h6 class="footer-item">Mercado pago</h6></li>
+                <li class="nav footer-item"><h6 class="footer-item">Visa</h6></li>
+                <li class="nav footer-item"><h6 class="footer-item">MasterCard</h6></li>
+                <li class="nav footer-item"><h6 class="footer-item">Naranja</h6></li>
+                <li class="nav footer-item"><h6 class="footer-item">QR</h6></li>
+            </ul>
+        </li>
+        </div>
+    </ul>
+     <a class="navbar-brand" href="../../../index.html"><img src="../../../img/logo-vete/logo-biger.png" class="logo mt-5"></a>
+    </div>
+    <!--Enlaces de redes sociales-->
+    <section class="container d-none d-md-block d-lg-block">
+        <h5 class="titulo">Contactos</h5>
+        <div class="row redes">
+            <div class="col">
+            <a href="https://www.google.com/maps/place/Veterinaria+Johnston/@-37.8802784,-67.7978519,17z/data=!3m1!4b1!4m6!3m5!1s0x960aca466e2aca45:0x9b55d026b27e1bb8!8m2!3d-37.8802827!4d-67.795277!16s%2Fg%2F11j00rmc0p?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="../../../img/footer/ubicacion.png" class="contactos" ></a>
+            </div>
+            <div class="col">
+            <a href="https://www.facebook.com/people/Veterinaria-Johnston/100063841381749/" target="_blank"><img src="../../../img/footer/facebook-png.png" class="contactos"></a>
+            </div>
+            <div class="col">
+            <a href="https://www.instagram.com/veterinariajohnston/" target="_blank"><img src="../../../img/footer/instagram.png" class="contactos"></a>
+            </div>
+            <div class="col">
+            <a href="https://www.tiktok.com/@veterinariaurg.jo" target="_blank"><img src="../../../img/footer/tiktok.png"  class="contactos"></a>
+            </div>
+        </div>
+    </section>
+     <section class="container d-sm-none">
+        <h5 class="titulo">Contactos</h5>
+        <div class="row small-redes">
+            <div class="col">
+            <a href="https://www.google.com/maps/place/Veterinaria+Johnston/@-37.8802784,-67.7978519,17z/data=!3m1!4b1!4m6!3m5!1s0x960aca466e2aca45:0x9b55d026b27e1bb8!8m2!3d-37.8802827!4d-67.795277!16s%2Fg%2F11j00rmc0p?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="../../../img/footer/ubicacion.png" class="contactos" ></a>
+            </div>
+            <div class="col">
+            <a href="https://www.facebook.com/people/Veterinaria-Johnston/100063841381749/" target="_blank"><img src="../../../img/footer/facebook-png.png" class="contactos"></a>
+            </div>
+            <div class="col">
+            <a href="https://www.instagram.com/veterinariajohnston/" target="_blank"><img src="../../../img/footer/instagram.png" class="contactos"></a>
+            </div>
+            <div class="col">
+            <a href="https://www.tiktok.com/@veterinariaurg.jo" target="_blank"><img src="../../../img/footer/tiktok.png"  class="contactos"></a>
+            </div>
+        </div>
+    </section>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
