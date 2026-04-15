@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    background: #EAEDED;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Outfit", sans-serif;
+
+}
+
+/*Navegador y componentes*/
+
+.navbar{
+    background-color: #fa570cf5;
+    margin-bottom: 5px;
+}
+
+#superior{
+    background-color: #fa911B;
+    margin-bottom: 5px;
+}
+
+.nav-link{
+    color:#EAEDED;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color:#5e0161;
+     transition: 0.5s;
+   
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+/*Menu desplegables*/
+
+.dropdown-item{
+    color: #1038EE;
+}
+
+.dropdown-item:hover{
+    color: #fff;
+    font-weight: 700;
+    background-color:  #fa570cf5;
+    transition: 0.4s;
+}
+
+/*Submenu*/
+
+.offcanvas-top{
+    margin-top: 200px;
+    padding-bottom: 700px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.offcanvas-title{
+    font-weight:bolder;
+    color: #1038EE;
+}
+
+.items{
+   margin-left: 10px;
+   
+}
+
+.item2{
+    padding: 60px;
+}
+
+.item3{
+    padding: 40px;
+}
+
+.folleto_off{
+    margin-left: 50px;
+    padding-top: 0;
+}
+
+.list-group-item:hover{
+    background: #fa570cf5;
+    border-radius: 10px;
+    padding: 7px;
+    color: #EAEDED;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-subIndex{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.btn-close{
+    background: #ff000f;
+}
+
+/*---Slider----*/
+.carousel-item{
+    max-height: 390px;
+}
+
+.img-slide{
+    filter:brightness(50%);
+}
+
+.text-slide{
+    font-weight: 500;
+    text-shadow: 4px -4px 12px #000;
+    color: #fff;
+}
+
+/*---Turnero---*/
+
+.servicios{
+    padding: 20%;
+}
+
+
+.btn-peluqueria{
+    margin-top: 50px;
+    width: 305px;
+    height: 405px;
+    border-radius: 15px;
+    background: url(../img/servicios/peluqueria-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-cirugia{
+    margin-top: 50px;
+    width: 305px;
+    height: 405px;
+    border-radius: 15px;
+    background: url(../img/servicios/cirugia-1.jpg), linear-gradient(to right, rgb(0 0 0 / .100)
+    ,rgb(0 0 0 / .100));
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    text-shadow: 4px -4px 12px #fff;
+}
+
+
+
+.btn-peluqueria:hover{
+    background: #fa570cbb;
+    transition: 0.7s;
+}
+
+.btn-cirugia:hover{
+    background: #1039ee9a;
+    transition: 0.7s;
+    color: #fff;
+    text-shadow: 4px -4px 12px #000;
+}
+
+/*----- seccion envios, pagos, sucursales--*/
+
+
+.contenedor-envios{
+    background: #5e0161;
+    
+}
+
+.titulo{
+    margin-top: 10px;
+    text-align: center;
+    color: #EAEDED;
+}
+
+
+.img-servicios{
+    width: 200px;
+    height: 200px;
+    background: #EAEDED;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 200px;
+    border: 5px #3b023d solid;
+}
+
+.img-servicios:hover{
+    background: #fa570cbb;
+    transition: 0.7s;
+     
+}
+
+/*----- Categorias -----*/
+
+.categorias{
+    background: #000;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.btn-categorias{
+   padding: 10px;
+   width: 120px;
+   height: 90px;
+}
+
+/*----Marcas-----*/
+
+.title{
+    text-align: center;
+    margin: 50px;
+}
+
+.marcas img{
+   width: 150px;
+   height: 150px;
+   padding: 20px;
+   justify-content: center;
+   margin: 30px;
+   border: 5px #3b023d solid;
+}
+
+.purina img{
+   width: 220px;
+   height: 150px;
+   padding: 50px;
+   justify-content: center;
+   margin: 30px;
+   border: 5px #3b023d solid;
+}
+
+/*-----Recomendaciones-------*/
+
+.recomendaciones{
+    padding: 100px;
+}
+
+.card-img-top{
+    max-width: 500px;
+    height: 210px;
+}
+
+.recomedacion-btn{
+    background: #3b023d;
+}
+
+.recomedacion-btn:hover{
+    background: #fa570cbb;
+     transition: 0.4s;
+}
+
+
+/*----------Suscripcion---------*/
+.suscricion-form-inicio{
+    justify-content: center;
+     background: #fff;
+     margin-top: 15%;
+    padding: 5px;
+    border-radius: 0 20px 20px 0;
+}
+
+
+.suscricion-form-blog{
+    justify-content: center;
+    margin-top: 15%;
+    padding: 5px;
+    background: #fff;
+    max-height: 250px;
+    min-width: 500px;
+    border-radius: 0 20px 20px 0 ;
+}
+
+.btn-seguinos{
+   background: #3b023d; 
+}
+
+.btn-seguinos:hover{
+    background: #fa570cbb;
+     transition: 0.4s;
+}
+
+/*------Footer-------*/
+.footer{
+    background: #1038EE;
+    border-top: #3b023d79 solid;
+    padding-left: 50px;
+}
+
+
+
+.menu-footer {
+    color: #EAEDED;
+    text-decoration: none;
+    
+}
+
+.titulo-footer{
+    color:#EAEDED;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 25px;
+}
+
+.footer-item{
+    text-decoration: none;
+    color: #EAEDED;
+}
+
+
+.footer-item:hover {
+    color: #EAEDED ;
+    font-weight: 700 ;
+    transition: 0.7s;
+}
+
+.redes{
+    padding: 30px;
+    padding-left: 220px;
+    color: #EAEDED;
+}
+
+.small-redes{
+    padding: 15%;
+    
+}
+
+.contactos{
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    background-color: #1038EE;
+    border-radius:  7px ;
+}
+
+.contactos:hover{
+    background-color: #ff5100de;
+    transition: 0.7s;
+}
+
+.ancla{
+    margin: 49%;
+    border:#EAEDED 5px solid;
+    border-radius: 20px;
+}
+.ancla:hover{
+    background: #ff5100de;
+    transition: 0.7s;
+}
+/*boton de whatsapp*/
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fcfbfc;
+}
+
+.nav-footer{
+    padding: 100px;
+}
+
+/*----FIN INICIO----*/
+
+/*---Comienzo pagina historia---*/
+
+.identificacion{
+    background: #fff;
+    padding: 20px;
+    box-shadow: #fff 0 10px 10px;
+    border-radius: 0 20px 20px 0;
+}
+
+/*--------FIN PAGINA HISTORI------*/
+
+/*Comienzo pagina blog----------*/
+
+.img-blog{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 25px;
+    margin: 30px;
+}
+
+.texto-blog{
+    text-align: justify;
+    margin-top: 8%;
+}
+
+
+
+/*---------Fin Pagina Blog------*/
+
+/*COMIENZO pagina producto------*/
+
+.nombre-producto{
+    font-size: 30px;
+}
+
+.cantidad{
+    background: #000;
+    color: #fff;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.numeradores{
+    background: #3b023d;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.numeradores:hover{
+    background: #ff5100de ;
+    transition: 0.5s;
+}
+
+.bxr {
+    padding: 7px;
+}
+
+.btn-dark{
+    background: #ff5100de;
+    font-weight: 600;
+}
+
+.pagos{
+    text-decoration: none;
+    color: #000;
+}
+
+.pagos:hover{
+    text-decoration: none;
+    color: #1038EE;
+}
+
+.card-img-top{
+    max-width: 250px;
+    max-height: 300px;
+}
+
+/*  Media query navegador */
+
+@media screen and (max-width: 700px){
+    
+    .navbar{
+        min-width: 576px;
+    }
+
+      .servicios{
+        min-width: 576px;
+    }
+
+
+    .slider{
+        min-width: 576px;
+    }
+
+}
+
+/*Media query servicos */
+
+@media screen and (max-width: 700px){
+
+       .servicios{
+        min-width: 576px;
+    }
+
+}
+
+/*Media query contenedor-envios */
+
+@media screen and (max-width: 700px){
+
+      .contenedor-envios{
+        min-width: 576px;
+    }
+
+}
+
+/*  Media query Footer */
+
+@media screen and (max-width: 700px){
+    .footer{
+        min-width: 576px;
+    }
+}
+
+/*  Media query Pagina Historia */
+
+@media screen and (max-width: 700px){
+    .container{
+        min-width: 576px;
+    }
+
+    .img-historia{
+        min-width: 576px;
+    }
+}
